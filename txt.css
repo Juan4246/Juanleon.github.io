@@ -1,0 +1,31 @@
+.texto-bonito {
+    top: 0; /* Lo coloca en la parte superior */
+    color: white; /* Letras blancas */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados solo en la parte inferior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para un efecto más bonito */
+    
+}
+
+.texto-bonito h1 {
+    font-size: 36px; /* Tamaño grande para el título principal */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el texto */
+}
+
+.texto-bonito h2 {
+    font-size: 28px; /* Tamaño grande para los subtítulos */
+    font-weight: bold; /* Negrita */
+    margin-top: 30px; /* Espaciado superior */
+    margin-bottom: 15px; /* Espaciado inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el texto */
+}
+
+.texto-bonito p {
+    font-size: 18px; /* Tamaño mediano para el texto descriptivo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado inferior */
+}

@@ -1,0 +1,128 @@
+body {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina relleno predeterminado */
+    background-image: url('fond.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la página */
+    height: 123vh; /* Asegura que el fondo ocupe toda la altura visible */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+.menu {
+    position: relative; /* Permite que el contenedor esté en el flujo normal del documento */
+    margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio superior */
+    padding: 15px 20px; /* Espaciado interno */
+    background-color: #000000; /* Fondo blanco */
+    border: 2px solid #e1f100; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    width: 90%; /* Ocupa el 90% del ancho de la página */
+    max-width: 800px; /* Limita el ancho máximo */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.menu ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 15px; /* Espaciado entre los elementos */
+}
+
+.menu li {
+    display: inline-block; /* Asegura que los elementos estén en línea */
+    background-color: #022854a5; /* Fondo azul oscuro para cada opción */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para cada opción */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover {
+    background-color: #000000; /* Fondo azul al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.menu a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #ffe100; /* Texto amarillo*/
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño del texto */
+    transition: color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover a {
+    color: rgb(236, 0, 0); /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilos para el contenedor principal */
+.container2 {
+    position: relative; /* Permite posicionarlo */
+    display: flex; /* Activa el modelo flexbox */
+    top: 10px; /* Mueve el contenedor hacia abajo */
+    flex-direction: column; /* Alinea los elementos de forma vertical */
+    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    width: 95%; /* Ajusta el ancho del contenedor */
+    min-height: auto; /* Ajusta la altura del contenedor */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #e5d30d; /* Fondo amarillo */
+    border: 1px solid #000000; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    color: #000000; /* Texto negro */
+}
+
+.container2 select, .container2 input, .container2 textarea {
+    background-color: #ffe100; /* Fondo amarillo */
+    color: #000000; /* Texto negro */
+    border: 1px solid #000000; /* Borde negro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior entre elementos */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    font-size: 10px; /* Tamaño del texto */
+}
+
+.container2 select:hover, .container2 input:hover, .container2 textarea:hover {
+    background-color: #ffd700; /* Fondo amarillo más oscuro al pasar el mouse */
+    border-color: #000000; /* Mantiene el borde negro */
+}
+
+.container2 button {
+    background-color: #000000; /* Fondo negro */
+    color: #ffe100; /* Texto amarillo */
+    font-size: 16spx; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+.container2 button:hover {
+    background-color: #ffe100; /* Fondo amarillo al pasar el mouse */
+    color: #000000; /* Texto negro */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el mouse */
+}
+/* Estilos para el pie de página */
+.container3 {
+    position: relative; /* Permite que el contenedor esté en el flujo normal del documento */
+    margin-top: 80px; /* Espaciado superior para separarlo del contenido anterior */
+    width: 97%; /* Ocupa todo el ancho de la página */
+    background-color: rgba(208, 255, 0, 0.1); /* Fondo azul claro transparente */
+    padding: 20px; /* Espaciado interno */
+    border-top: 2px solid #c3ff00; /* Línea superior azul */
+    text-align: center; /* Centra el texto */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra superior */
+}
+.container3 span, .container2 p {
+    color: #bde509; /* Color azul para el texto */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita para resaltar */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+

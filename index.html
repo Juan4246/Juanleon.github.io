@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda de desplazamiento</title>
+    <link rel="stylesheet" href="animate/styles.css"> <!-- Conexión al archivo CSS -->
+    <link rel="stylesheet" href="txt/txt.css"> <!-- Conexión al archivo CSS -->
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <div class="texto-bonito">
+        <h1>Bienvenido a Ayuda de Desplazamiento</h1>
+        <p>Un nuevo futuro en un nuevo hogar</p>
+    </div>
+
+    <!-- Menú de navegación -->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container2">
+        <h2>Lugar y atención de desplazados</h2>
+        <h2>Si se encuentra en situación de desplazamiento, por favor complete este formulario y le brindaremos asistencia.</h2>
+        <form action="send_email.php" method="POST"></form>
+                <input type="text" name="nombre" placeholder="NOMBRE" required>
+                <input type="email" name="email" placeholder="EMAIL" required>
+                <input type="number" name="edad" placeholder="EDAD" required>
+            <select>
+                <option selected>NUMERO DE PERSONAS</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3 O MÁS</option>
+            </select>
+            <select>
+                    <option selected>SEXO</option>
+                    <option value="masculino">MASCULINO</option>
+                    <option value="femenino">FEMENINO</option>
+                    <option value="otro">OTRO</option>
+                </select>
+            <textarea name="situacion" placeholder="SITUACIÓN" rows="4" required></textarea>
+            <button type="submit" class="btn-primary">ENVIAR</button>
+        </form>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="container3">
+        <p>© 2025 Ayuda de Desplazamiento. Todos los derechos reservados.</p>
+    </div>
+</body>
+
+</html>
