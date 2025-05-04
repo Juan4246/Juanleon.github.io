@@ -1,0 +1,167 @@
+/* Estilo general para el texto */
+body {
+  background-image: url('fondoblanco.jpg'); /* Fondo de la página */
+  font-family: 'Arial', sans-serif; /* Fuente legible y moderna */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #333333; /* Color de texto gris oscuro */
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Fondo claro para contraste */
+}
+
+/* Títulos principales */
+h2 {
+  font-family: 'Georgia', serif; /* Fuente elegante para títulos */
+  font-size: 2rem; /* Tamaño grande para destacar */
+  color: #022854; /* Azul oscuro */
+  text-align: center; /* Centrar los títulos */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+  letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Párrafos */
+p {
+  font-size: 1.1rem; /* Tamaño de texto ligeramente más grande */
+  color: #555555; /* Gris medio para mejor legibilidad */
+  text-align: justify; /* Justificar texto para alineación uniforme */
+  margin-bottom: 15px;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd; /* Bordes ligeros */
+  font-size: 1rem;
+  color: #333333;
+}
+
+table th {
+  background-color: #022854; /* Fondo azul oscuro */
+  color: #ffffff; /* Texto blanco */
+  text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+}
+
+/* Enlaces */
+a {
+  color: #022854; /* Azul oscuro */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff9900; /* Cambiar a naranja al pasar el mouse */
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+/* Estilo para el menú de navegación */
+.menu {
+  position: relative; /* Permite que el contenedor esté en el flujo normal del documento */
+  margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio superior */
+  padding: 15px 20px; /* Espaciado interno */
+  background-color: #f6f4f4; /* Fondo blanco */
+  border: 2px solid #001cf1; /* Borde azul claro */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+  width: 90%; /* Ocupa el 90% del ancho de la página */
+  max-width: 800px; /* Limita el ancho máximo */
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.menu ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina relleno */
+  display: flex; /* Alinea los elementos en fila */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 15px; /* Espaciado entre los elementos */
+}
+
+.menu li {
+  display: inline-block; /* Asegura que los elementos estén en línea */
+  background-color: #022854a5; /* Fondo azul oscuro para cada opción */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para cada opción */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover {
+  background-color: #000000; /* Fondo azul al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.menu a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #ffffff; /* Texto amarillo*/
+  font-weight: bold; /* Texto en negrita */
+  font-size: 16px; /* Tamaño del texto */
+  transition: color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover a {
+  color: rgb(0, 232, 236); /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilo para el Mini Menú */
+.mini-menu {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #022854; /* Fondo azul oscuro */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+  color: #ffffff; /* Texto blanco */
+  text-align: center; /* Centrar el texto */
+}
+
+.mini-menu h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #ffe100; /* Título en amarillo */
+}
+
+.mini-menu ul {
+  list-style: none; /* Eliminar viñetas */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Alinear elementos en fila */
+  justify-content: center; /* Centrar horizontalmente */
+  gap: 15px; /* Espaciado entre elementos */
+}
+
+.mini-menu li {
+  display: inline-block;
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 10px 15px;
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animación suave */
+}
+
+.mini-menu li:hover {
+  background-color: #005eff; /* Fondo amarillo al pasar el mouse */
+  transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
+}
+
+.mini-menu a {
+  text-decoration: none; /* Quitar subrayado */
+  color: #022854; /* Texto azul oscuro */
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Animación suave */
+}
+
+.mini-menu li:hover a {
+  color: #000000; /* Cambiar color del texto al pasar el mouse */
+}
