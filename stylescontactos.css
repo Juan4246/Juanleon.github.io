@@ -1,0 +1,99 @@
+/* Estilo para el encabezado */
+menu {
+    position: relative; /* Permite que el contenedor esté en el flujo normal del documento */
+    margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio superior */
+    padding: 15px 20px; /* Espaciado interno */
+    background-color: #000000; /* Fondo blanco */
+    border: 2px solid #e1f100; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    width: 90%; /* Ocupa el 90% del ancho de la página */
+    max-width: 800px; /* Limita el ancho máximo */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.menu ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 15px; /* Espaciado entre los elementos */
+}
+
+.menu li {
+    display: inline-block; /* Asegura que los elementos estén en línea */
+    background-color: #022854a5; /* Fondo azul oscuro para cada opción */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para cada opción */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover {
+    background-color: #000000; /* Fondo azul al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.menu a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #ffe100; /* Texto amarillo*/
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño del texto */
+    transition: color 0.3s ease; /* Animación suave */
+}
+
+.menu li:hover a {
+    color: rgb(236, 0, 0); /* Cambia el color del texto al pasar el mouse */
+}
+/* fono de de pagina*/
+body {
+    background-color: #000000;
+    color: azure;
+    }
+/* Estilo general para las tarjetas */
+.card {
+    position: relative;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fbff00;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Efecto hover para las tarjetas */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen de la tarjeta */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  /* Título de la tarjeta */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Texto de la tarjeta */
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Espaciado entre tarjetas */
+  .row.g-4 > div {
+    margin-bottom:30px;
+  }
